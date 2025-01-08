@@ -10,7 +10,15 @@ $ pip install indi1524
 
 ## Usage
 
-- TODO
+- `indi1524` can be used to count words in a text file and plot results
+as follows:
+```python
+from indi1524.indi1524 import count_words
+
+file_path = "test.txt"  # path to your file
+counts = count_words(file_path)
+
+```
 
 ## Contributing
 
